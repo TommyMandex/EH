@@ -1,0 +1,24 @@
+DA : Data Analysing
+MI : Machines Information
+Mac : Mac Address
+
+Analysing the mac address give to opten information about the machine
+
+manmac:
+python mini-program to search for macaddress manofacture from the ieee-registered vendors...
+usage:
+go to the site:
+http://standards-oui.ieee.org/iab/iab.txt
+copy the innerText of the file using javascript to a file and save it as ansi..this is the database
+db = document.getElementsByTagName("pre")
+db[0].innerText
+
+termainl : manmac
+enter the file name of the database file
+enter the mac address as xx-xx-xx
+...
+
+
+Next:
+https://code.wireshark.org/review/gitweb?p=wireshark.git;a=blob_plain;f=manuf
+https://www.cavebear.com/archive/cavebear/Ethernet/vendor.html
